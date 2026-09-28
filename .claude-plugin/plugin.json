@@ -1,0 +1,21 @@
+{
+  "description": "WIP experimental cross-provider subagents; not production-ready.",
+  "envKeys": [
+    { "key": "OPENROUTER_API_KEY" },
+    { "key": "AI_SUBAGENT_MAX_ACTIVE_AGENTS" },
+    { "key": "AI_SUBAGENT_MAX_SPAWNED_AGENTS" },
+    { "key": "AI_SUBAGENT_MAX_LIFECYCLE_CALLS" },
+    { "key": "AI_SUBAGENT_MAX_OUTPUT_BYTES" },
+    { "key": "AI_SUBAGENT_MAX_DEPTH" },
+    { "key": "AI_SUBAGENT_CODEX_BINARY" }
+  ],
+  "name": "ai-subagent",
+  "userConfig": {
+    "openrouter_api_key": {
+      "description": "OpenRouter API key for GLM/OpenRouter-backed builder subagents",
+      "sensitive": true,
+      "title": "OpenRouter API Key",
+      "type": "string"
+    }
+  }
+}

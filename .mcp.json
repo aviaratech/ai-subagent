@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "ai-subagent": {
+      "args": ["${CLAUDE_PLUGIN_ROOT}/dist/mcp-launcher.js"],
+      "command": "node"
+    }
+  }
+}
